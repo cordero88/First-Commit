@@ -19,7 +19,7 @@ if (!hero) return <Navigate to="/" />
   return (
     <div className="row mt-5 amimate__animated animate__fadeInLeft">
      <div className="col-4">
-      <img src={`/assets/image/${id}.jpg`} alt={hero.superhero} className="img-thumbnail"/>
+      <img src={`/heroes/${id}.jpg`} alt={hero.superhero} className="img-thumbnail"/>
      </div>
 
       <div className="col-8 ">
